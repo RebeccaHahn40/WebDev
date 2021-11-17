@@ -3,6 +3,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+img {
+    height: 300px;
+}
+
 h1 {
     text-align: center;
     font-size: 45px;
@@ -43,4 +47,13 @@ ol, ul {
 .aside {
     padding: 5px 15px;
     font-size: 12px;
+}
+
+.expanded {
+    height: 400px;
+    transition: .5s;
+}
+
+.hovered {
+    font-size: 14px;
 }
