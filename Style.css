@@ -21,6 +21,7 @@ th, td {
     border: 1px solid black;
     padding: 15px;
     background-color: white;
+    font-size: 16px;
 }
 
 ol, ul {
@@ -54,6 +55,12 @@ ol, ul {
     transition: .5s;
 }
 
-.hovered {
-    font-size: 14px;
+.enlarged {
+    font-size: 48px;
+    transition: .5s;
+}
+
+.enlarged2 {
+    font-size: 20px;
+    transition: .5s;
 }

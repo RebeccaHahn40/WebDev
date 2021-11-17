@@ -2,16 +2,25 @@
 
 window.onload = function () {
     let images = document.querySelector("img");
+    let headers = document.querySelector("h1");
+    let colors = document.querySelectorAll("td");
+
+
     images.addEventListener("click", imageClicked);
 
-    let colors = document.querySelector("td");
-    colors.addEventListener("mouseover", colorHovered);
+    headers.addEventListener("click", headerClicked);
+
+
+    for (let color of colors) {
+        color.addEventListener("click", colorClicked);
+    }
+    
+
 }
 
 function imageClicked(event) {
     let target = event.currentTarget;
 
-    event.stopPropagation();
     if (target.classList.contains("expanded")) {
         target.classList.remove("expanded");
     } else {
@@ -19,13 +28,22 @@ function imageClicked(event) {
     }
 }
 
-function colorHovered(event) {
+function headerClicked(event) {
     let target = event.currentTarget;
 
-    event.stopPropagation();
-    if (target.classList.contains("hovered")) {
-        target.classList.remove("hovered");
+    if (target.classList.contains("enlarged")) {
+        target.classList.remove("enlarged");
     } else {
-        target.classList.remove("hovered");
+        target.classList.add("enlarged");
+    }
+}
+
+function colorClicked(event) {
+    let target = event.currentTarget;
+
+    if (target.classList.contains("enlarged2")) {
+        target.classList.remove("enlarged2");
+    } else {
+        target.classList.remove("enlarged2");
     }
 }
