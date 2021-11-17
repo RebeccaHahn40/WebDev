@@ -10,7 +10,7 @@ window.onload = function () {
 
     headers.addEventListener("click", headerClicked);
 
-
+    
     for (let color of colors) {
         color.addEventListener("click", colorClicked);
     }
