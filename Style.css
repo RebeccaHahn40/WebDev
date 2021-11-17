@@ -1,3 +1,8 @@
+html {
+    background-color: aliceblue; 
+    font-family: 'Courier New', Courier, monospace;
+}
+
 h1 {
     text-align: center;
     font-size: 45px;
@@ -11,6 +16,7 @@ table {
 th, td {
     border: 1px solid black;
     padding: 15px;
+    background-color: white;
 }
 
 ol, ul {
