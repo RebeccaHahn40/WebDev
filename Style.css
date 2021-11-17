@@ -3,6 +3,10 @@ html {
     font-family: 'Courier New', Courier, monospace;
 }
 
+img {
+    height: 300px;
+}
+
 h1 {
     text-align: center;
     font-size: 45px;
@@ -17,6 +21,7 @@ th, td {
     border: 1px solid black;
     padding: 15px;
     background-color: white;
+    font-size: 16px;
 }
 
 ol, ul {
@@ -43,4 +48,19 @@ ol, ul {
 .aside {
     padding: 5px 15px;
     font-size: 12px;
+}
+
+.expanded {
+    height: 400px;
+    transition: .5s;
+}
+
+.enlarged {
+    font-size: 48px;
+    transition: .5s;
+}
+
+.enlarged2 {
+    font-size: 20px;
+    transition: .5s;
 }
