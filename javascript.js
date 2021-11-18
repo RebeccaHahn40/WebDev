@@ -1,16 +1,16 @@
 
 
 window.onload = function () {
-    let images = document.querySelector("img");
+    let images = document.querySelectorAll("img");
     let headers = document.querySelector("h1");
     let colors = document.querySelectorAll("td");
 
-
-    images.addEventListener("click", imageClicked);
+    for (let image of images) {
+        image.addEventListener("click", imageClicked);
+    }
 
     headers.addEventListener("click", headerClicked);
 
-    
     for (let color of colors) {
         color.addEventListener("click", colorClicked);
     }

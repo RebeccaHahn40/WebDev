@@ -4,7 +4,7 @@ html {
 }
 
 img {
-    height: 300px;
+    height: 250px;
 }
 
 h1 {
@@ -51,7 +51,7 @@ ol, ul {
 }
 
 .expanded {
-    height: 400px;
+    height: 300px;
     transition: .5s;
 }
 
@@ -63,4 +63,29 @@ ol, ul {
 .enlarged2 {
     font-size: 20px;
     transition: .5s;
+}
+
+.itemdiv {
+    margin: 0% 10%;
+}
+
+.items {
+    width: 25%;
+    background-color: white;
+    float: left;
+    margin: 4%;
+    border-radius: 10px;
+}
+
+.basket {
+    height: 50px;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin: 0% 13%;
+}
+
+.cereal {
+    margin: auto;
 }
