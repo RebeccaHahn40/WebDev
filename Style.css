@@ -60,11 +60,6 @@ ol, ul {
     transition: .5s;
 }
 
-.enlarged2 {
-    font-size: 20px;
-    transition: .5s;
-}
-
 .itemdiv {
     margin: 0% 10%;
 }
@@ -78,9 +73,8 @@ ol, ul {
 }
 
 .basket {
-    height: 50px;
+    height: 500px;
     width: 30%;
-    background-color: white;
     border-radius: 10px;
     float: left;
     margin: 0% 13%;
